@@ -1,3 +1,5 @@
+#Imports
+from problem_solver import simulated_annealing
 # Define your graph, parameters, and any other specific problem details here
 G = (['A', 'B', 'C', 'D'], [('A', 'B'), ('B', 'C'), ('C', 'D'), ('D', 'A')])
 E = ['D']
